@@ -35,7 +35,7 @@ app.post("/api/generate", (req, res) => {
 });
 
 // админ ключ
-const ADMIN_PASSWORD_HASH = "$2b$10$examplehash";
+const ADMIN_PASSWORD_HASH = "$2b$10$N80XQ7.VN0/nk2Zqe37sy.D2MPaE1mYNmPZb8txXCQRZOjZhASxYy";
 
 app.post("/api/generate-admin", async (req, res) => {
     const { password } = req.body;
